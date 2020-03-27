@@ -42,7 +42,8 @@ petsstore.yamlの定義通りにコードが生成されます。
 petsstoreはおそらくSwaggerで提供されているサンプル.yamlのようなもの。
 https://petstore.swagger.io/
 
-# org.openapitools.client - Kotlin client library for OpenAPI Petstore
+
+# 以下はopenapi generatorによって生成されたREADME.md
 
 ## Requires
 
