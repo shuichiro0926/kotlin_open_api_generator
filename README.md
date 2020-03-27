@@ -26,6 +26,18 @@ docker run --rm -v ${PWD}:/local openapitools/openapi-generator-cli generate \
 -o: localに指定したディレクトリを作成 && 生成されたコードを設置
 ```
 
+Kotlinの場合
+```
+docker run --rm -v ${PWD}:/local openapitools/openapi-generator-cli generate \
+    -i https://raw.githubusercontent.com/openapitools/openapi-generator/master/modules/openapi-generator/src/test/resources/2_0/petstore.yaml \
+    -g kotlin \
+    -o /local/out/kotlin
+```
+
+petsstore.yamlの定義通りにコードが生成されます。
+petsstoreはおそらくSwaggerで提供されているサンプル.yamlのようなもの。
+https://petstore.swagger.io/
+
 # org.openapitools.client - Kotlin client library for OpenAPI Petstore
 
 ## Requires
