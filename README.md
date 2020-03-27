@@ -10,11 +10,20 @@ https://github.com/OpenAPITools/openapi-generator
 
 ## dockerによる生成
 
-```サンプルコード
+サンプルコード
+```
 docker run --rm -v ${PWD}:/local openapitools/openapi-generator-cli generate \
     -i https://raw.githubusercontent.com/openapitools/openapi-generator/master/modules/openapi-generator/src/test/resources/2_0/petstore.yaml \
     -g go \
     -o /local/out/go
+```
+
+```
+--rm: 実行後にコンテナを自動的に削除(便利)
+-v: ホスト側ディレクトリ(フルパス):コンテナ側ディレクトリ(フルパス)
+-i: 使用するイメージを指定
+-g: 言語指定(dockerの公式でサポートされているのか知りません)
+-o: localに指定したディレクトリを作成 && 生成されたコードを設置
 ```
 
 # org.openapitools.client - Kotlin client library for OpenAPI Petstore
