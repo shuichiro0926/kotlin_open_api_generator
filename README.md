@@ -1,3 +1,10 @@
+# open api genaratorを使用したコード生成
+
+## 方法
+- npm
+- homebrew
+- docker
+
 # org.openapitools.client - Kotlin client library for OpenAPI Petstore
 
 ## Requires
