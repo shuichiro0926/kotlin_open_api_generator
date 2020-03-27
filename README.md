@@ -1,16 +1,21 @@
 # open api genaratorを使用したコード生成
 
 ## open api generatorとは？
+
 Swagger UIによってAPIドキュメントを生成することができるのは既知ですが、
+
 openapi generatorやSwagger codogenはSwagger.yamlなどの定義からコードを生成することができます。
+
 コードというのは基本的にはAPIに対するRequestとResponseのモデルクラス等です。
 
 ## open api generatorのinstallパターン
-npm, brew, dockerが基本？
-リポジトリをsubmoduleとして取り込んで、githubActionsで実行する方法もあるそうです。
+以下が基本らしいです。
+
 - npm
 - homebrew
 - docker
+
+リポジトリをsubmoduleとして取り込んで、githubActionsで実行する方法もあるそうです。
 
 # org.openapitools.client - Kotlin client library for OpenAPI Petstore
 
