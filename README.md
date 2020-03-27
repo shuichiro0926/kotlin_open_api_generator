@@ -8,6 +8,15 @@ https://github.com/OpenAPITools/openapi-generator
 - 多言語対応(今回はKotlinで生成)
 - brew, npm, dockerなどから実行可能(Repositoryをsubmoduleとして取り込んでも良い)
 
+## dockerによる生成
+
+```サンプルコード
+docker run --rm -v ${PWD}:/local openapitools/openapi-generator-cli generate \
+    -i https://raw.githubusercontent.com/openapitools/openapi-generator/master/modules/openapi-generator/src/test/resources/2_0/petstore.yaml \
+    -g go \
+    -o /local/out/go
+```
+
 # org.openapitools.client - Kotlin client library for OpenAPI Petstore
 
 ## Requires
