@@ -1,4 +1,4 @@
-# 以下はopenapi generatorによって生成されたREADME.md
+# org.openapitools.client - Kotlin client library for OpenAPI Petstore
 
 ## Requires
 
