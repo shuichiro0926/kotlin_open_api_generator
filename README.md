@@ -1,9 +1,12 @@
 # openapi genaratorによるコード生成
 
+https://github.com/OpenAPITools/openapi-generator
+
 ## open api generatorとは？
 - Swagger.yamlからコードを自動生成。
 - コードとは**ClientとAPI間のRequestとResponseのモデルクラス**
 - 多言語対応(今回はKotlinで生成)
+- brew, npm, dockerなどから実行可能(Repositoryをsubmoduleとして取り込んでも良い)
 
 # org.openapitools.client - Kotlin client library for OpenAPI Petstore
 
