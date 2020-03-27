@@ -1,14 +1,9 @@
 # openapi genaratorによるコード生成
 
 ## open api generatorとは？
-
-Swagger UIはSwagger.yamlのようなファイルを定義することでAPIドキュメントを生成することができました。
-
-**openapi generator**やSwagger codogenはSwagger.yamlのようなファイル定義からコードを生成することができます。
-
-コードというのは**ClientとAPI間のRequestとResponseのモデルクラス**を指しています。
-
-openapi generatorが対応している言語であればコードを生成することができます。
+- Swagger.yamlのようなファイル定義からコードを自動生成。
+- コードとは**ClientとAPI間のRequestとResponseのモデルクラス**
+- openapi generatorが対応している言語であればコード生成可能。
 
 ## open api generatorのinstallパターン
 以下が基本らしいです。
