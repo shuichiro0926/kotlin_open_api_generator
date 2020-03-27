@@ -8,6 +8,10 @@ https://github.com/OpenAPITools/openapi-generator
 - 多言語対応(今回はKotlinで生成)
 - brew, npm, dockerなどから実行可能(Repositoryをsubmoduleとして取り込んでも良い)
 
+## メリット
+- APIドキュメントと実際の実装に解離が起きにくくなる。
+- 先にAPIドキュメントを書くことでAPIが作成される前にフロントエンドメンバーが開発できる。
+
 ## dockerによる生成
 
 サンプルコード
